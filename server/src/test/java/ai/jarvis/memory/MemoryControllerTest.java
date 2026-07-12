@@ -1,11 +1,11 @@
 package ai.ultimate.memory;
 
-import static ai.jarvis.memory.MemoryFactory.MEMORY_REQUEST_WITH_BLANK_CONTENT;
-import static ai.jarvis.memory.MemoryFactory.MEMORY_REQUEST_WITH_MISSING_CONTENT;
-import static ai.jarvis.memory.MemoryFactory.MEMORY_REQUEST_WITH_MISSING_MEMORY_TYPE;
-import static ai.jarvis.memory.MemoryFactory.MEMORY_REQUEST_WITH_NULL_CONTENT;
-import static ai.jarvis.memory.MemoryFactory.MEMORY_REQUEST_WITH_NULL_MEMORY_TYPE;
-import static ai.jarvis.memory.MemoryFactory.createMemoryRequestJson;
+import static ai.ultimate.memory.MemoryFactory.MEMORY_REQUEST_WITH_BLANK_CONTENT;
+import static ai.ultimate.memory.MemoryFactory.MEMORY_REQUEST_WITH_MISSING_CONTENT;
+import static ai.ultimate.memory.MemoryFactory.MEMORY_REQUEST_WITH_MISSING_MEMORY_TYPE;
+import static ai.ultimate.memory.MemoryFactory.MEMORY_REQUEST_WITH_NULL_CONTENT;
+import static ai.ultimate.memory.MemoryFactory.MEMORY_REQUEST_WITH_NULL_MEMORY_TYPE;
+import static ai.ultimate.memory.MemoryFactory.createMemoryRequestJson;
 import static java.time.format.DateTimeFormatter.ISO_INSTANT;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;

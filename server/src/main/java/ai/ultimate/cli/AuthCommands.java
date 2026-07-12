@@ -56,7 +56,7 @@ public class AuthCommands {
         try {
             Map<String, Object> response = http.postForMap(
                     "/api/v1/auth/login",
-                    new ai.jarvis.security.auth.request
+                    new ai.ultimate.security.auth.request
                             .LoginRequest(
                             username.trim(),
                             password.trim()));

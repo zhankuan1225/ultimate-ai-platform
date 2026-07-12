@@ -1,6 +1,6 @@
 package ai.ultimate.integration;
 
-import static ai.jarvis.memory.MemoryFactory.createMemoryRequestJson;
+import static ai.ultimate.memory.MemoryFactory.createMemoryRequestJson;
 import static java.time.format.DateTimeFormatter.ISO_INSTANT;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

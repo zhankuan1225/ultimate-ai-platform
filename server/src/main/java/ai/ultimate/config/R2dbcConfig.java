@@ -22,7 +22,7 @@ import java.util.Arrays;
 
 @Configuration
 @EnableR2dbcAuditing
-@EnableR2dbcRepositories(basePackages = "ai.jarvis")
+@EnableR2dbcRepositories(basePackages = "ai.ultimate")
 public class R2dbcConfig {
     // Spring Boot auto-configures R2DBC from application.yml
     // @EnableR2dbcAuditing → enables @CreatedDate @LastModifiedDate

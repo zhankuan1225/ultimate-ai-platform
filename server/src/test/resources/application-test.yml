@@ -27,7 +27,7 @@ spring:
 # Suppress unnecessary logging during tests
 logging:
   level:
-    ai.jarvis: WARN
+    ai.ultimate: WARN
     org.springframework: WARN
     io.r2dbc: WARN
     org.flywaydb: WARN

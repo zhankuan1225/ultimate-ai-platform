@@ -40,7 +40,7 @@
     </root>
 
     <!-- Jarvis own classes: INFO to file only -->
-    <logger name="ai.jarvis"
+    <logger name="ai.ultimate"
             level="INFO"
             additivity="false">
         <appender-ref ref="FILE"/>

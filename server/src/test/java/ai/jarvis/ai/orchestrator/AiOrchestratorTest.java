@@ -1,8 +1,8 @@
 package ai.ultimate.ai.orchestrator;
 
-import static ai.jarvis.ai.orchestrator.OrchestratorRequestFactory.generateOrchestrationRequest;
-import static ai.jarvis.chat.message.MessageFactory.generateAssistantMessage;
-import static ai.jarvis.chat.message.MessageFactory.generateUserMessage;
+import static ai.ultimate.ai.orchestrator.OrchestratorRequestFactory.generateOrchestrationRequest;
+import static ai.ultimate.chat.message.MessageFactory.generateAssistantMessage;
+import static ai.ultimate.chat.message.MessageFactory.generateUserMessage;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.ArgumentMatchers.any;

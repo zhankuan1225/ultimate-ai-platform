@@ -13,7 +13,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>ai.jarvis</groupId>
+    <groupId>ai.ultimate</groupId>
     <artifactId>jarvis-server</artifactId>
     <version>0.1.0</version>
     <name>Jarvis AI Platform — Server</name>

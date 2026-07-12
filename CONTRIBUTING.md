@@ -30,7 +30,7 @@ Every contribution matters — whether it is code, documentation, bug reports, t
 jarvis-ai-platform/
 │
 ├── server/
-│   └── src/main/java/ai/jarvis/
+│   └── src/main/java/ai.ultimate/
 │       ├── config/              Spring configuration
 │       ├── security/            JWT + Spring Security
 │       ├── user/                User management
@@ -73,9 +73,9 @@ Adding a new tool is simple — just implement `JarvisTool`.
 ## ✅ Correct Pattern
 
 ```java
-package ai.jarvis.tools.builtin;
+package ai.ultimate.tools.builtin;
 
-import ai.jarvis.tools.JarvisTool;
+import ai.ultimate.tools.JarvisTool;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
 import org.springframework.stereotype.Component;

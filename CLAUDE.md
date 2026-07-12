@@ -114,7 +114,7 @@ VoiceConversationService
 # Package Structure
 
 ```text
-ai.jarvis/
+ai.ultimate/
 │
 ├── ai/
 │   ├── orchestrator/

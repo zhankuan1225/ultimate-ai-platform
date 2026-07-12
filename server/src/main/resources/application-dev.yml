@@ -13,7 +13,7 @@ spring:
 
 logging:
   level:
-    ai.jarvis: DEBUG
+    ai.ultimate: DEBUG
     org.springframework.security: DEBUG
 
 springdoc:
