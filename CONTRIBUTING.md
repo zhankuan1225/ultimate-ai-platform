@@ -1,74 +1,13 @@
-# 🤝 Contributing to Jarvis AI Platform
+# 🤝 Contributing to UltimateAI Platform
 
-First off — thank you for considering contributing to Jarvis AI Platform.
+First off — thank you for considering contributing to UltimateAI Platform.
 
-Jarvis is an open-source, privacy-first AI platform built for developers, researchers, and AI enthusiasts who believe personal AI should run locally and remain fully under user control.
+UltimateAI is an open-source, privacy-first AI platform built for developers, researchers, and AI enthusiasts who believe personal AI should run locally and remain fully under user control.
 
 Every contribution matters — whether it is code, documentation, bug reports, testing, ideas, or feedback.
 
 ---
 
-# 📋 Table of Contents
-
-* [Before You Start](#-before-you-start)
-* [Ways to Contribute](#-ways-to-contribute)
-* [Development Setup](#-development-setup)
-* [Project Structure](#-project-structure)
-* [Coding Standards](#-coding-standards)
-* [Reactive Programming Rules](#-reactive-programming-rules)
-* [Tool Development Standards](#-tool-development-standards)
-* [Commit Message Convention](#-commit-message-convention)
-* [Submitting Pull Requests](#-submitting-pull-requests)
-* [Good First Issues](#-good-first-issues)
-* [Community & Support](#-community--support)
-
----
-
-# 🏗️ Project Structure
-
-```text
-jarvis-ai-platform/
-│
-├── server/
-│   └── src/main/java/ai.ultimate/
-│       ├── config/              Spring configuration
-│       ├── security/            JWT + Spring Security
-│       ├── user/                User management
-│       ├── chat/                Chat sessions + messages
-│       ├── ai/                  AI orchestration core
-│       │   ├── orchestrator/    AiOrchestrator
-│       │   ├── provider/        Ollama/Gemini adapters
-│       │   └── prompt/          PromptAssembler
-│       ├── memory/              Memory system (Phase 2)
-│       ├── rag/                 RAG engine (Phase 3)
-│       │   ├── extraction/      Text extractors
-│       │   └── (chunking/embed) Processing pipeline
-│       ├── tools/               Tool Engine (Phase 4)
-│       │   ├── builtin/         Built-in tools
-│       │   │   ├── DateTimeTool
-│       │   │   ├── CalculatorTool
-│       │   │   ├── WeatherTool
-│       │   │   └── WebSearchTool
-│       │   └── mcp/             MCP protocol
-│       │       └── McpServerConfig
-│       ├── voice/               Voice (Phase 5) 🔨
-│       ├── agents/              Agents (Phase 6) 📋
-│       ├── cli/                 Spring Shell CLI
-│       ├── observability/       Logging + metrics
-│       └── common/              Shared utilities
-│
-├── docs/                        Documentation + ADRs
-├── docker/                      Docker configs
-├── docker-compose.yml           Production setup
-├── docker-compose.dev.yml       Development setup
-└── .env.example                 Environment template
-```
-
----
-
-# 🔌 Tool Development Standards
-
-Adding a new tool is simple — just implement `JarvisTool`.
 
 ## ✅ Correct Pattern
 
@@ -233,4 +172,4 @@ Together, we are building:
 * Community-driven tooling
 * A developer-focused AI ecosystem
 
-🚀 Welcome to the Jarvis contributor community.
+🚀 Welcome to the UltimateAI contributor community.
