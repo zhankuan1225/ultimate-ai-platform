@@ -1,4 +1,4 @@
-
+![UltimateAI Platform Logo](https://github.com/iyeanur6-cyber/ultimate-ai-platform/blob/main/docs/UltimateAI.png)
 # 🌌 Ultimate AI Platform
 A Modular, Local-First, Open-Source AI Assistant & Automation Platform Built with Java 21, Spring Boot 4, and Spring AI 2.0.
 
