@@ -1,3 +1,4 @@
+![UltimateAI Platform Logo](https://github.com/iyeanur6-cyber/ultimate-ai-platform/blob/main/docs/UltimateAI.png)
 # UltimateAI Platform — Architecture
 
 ## System Overview
