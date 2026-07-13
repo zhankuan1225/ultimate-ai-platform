@@ -132,8 +132,8 @@ public class ChromiumBrowsingTool implements UltimateTool {
             if (!completed) {
                 destroyProcessTree(runningProcess);
                 try {
-                    stdoutThread.join(2000);
-                    stderrThread.join(2000);
+                    stdoutReader.join(2000);
+                    stderrReader.join(2000);
                 } catch (Exception ignored) {}
                 releaseCredits(sessionKey, processingCredits);
                 return "Watchdog Interdiction: Chromium browsing exceeded the 30 second runtime limit.";
@@ -161,7 +161,7 @@ public class ChromiumBrowsingTool implements UltimateTool {
         } catch (Exception e) {
             releaseCredits(sessionKey, processingCredits);
             return "Infrastructure Process Lifecycle Failure: " + (e.getMessage() != null ? e.getMessage() : e.toString());
-        } finaly {
+        } finally {
             if (browserProcess != null) {
                 destroyProcessTree(browserProcess);
             }
